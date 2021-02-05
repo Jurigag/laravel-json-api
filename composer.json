@@ -21,10 +21,17 @@
             "email": "info@cloudcreativity.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "name": "cloudcreativity/utils-object",
+            "type": "vcs",
+            "url": "https://github.com/Jurigag/utils-object"
+        }
+    ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1|^8.0",
         "ext-json": "*",
-        "cloudcreativity/utils-object": "^1.0",
+        "cloudcreativity/utils-object": "dev-master",
         "illuminate/console": "5.8.*|^6.0",
         "illuminate/contracts": "5.8.*|^6.0",
         "illuminate/database": "5.8.*|^6.0",
@@ -39,7 +46,7 @@
     },
     "require-dev": {
         "ext-sqlite3": "*",
-        "cloudcreativity/json-api-testing": "^1.2|^2.0",
+        "cloudcreativity/json-api-testing": "^3.0",
         "composer/semver": "^1.5",
         "guzzlehttp/guzzle": "^6.3",
         "mockery/mockery": "^1.1",
